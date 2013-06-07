@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="dtc" fetch="git://git.jdl.com/"/>
+  <remote name="denx" fetch="git://git.denx.de/"/>
+  <remote name="github" fetch="git://github.com/nvidia/"/>
+  <remote name="nv-tegra" fetch="git://nv-tegra.nvidia.com/"/>
+
+  <default revision="master"/>
+
+  <project path="cbootimage-configs" name="tools/tegra-cbootimage-configs.git" remote="nv-tegra"/>
+  <project path="scripts" name="tegra-uboot-flasher-scripts.git" remote="github"/>
+  <project path="u-boot" name="u-boot.git" remote="denx"/>
+</manifest>
