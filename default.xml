@@ -2,7 +2,7 @@
 <manifest>
   <remote name="dtc" fetch="git://git.jdl.com/"/>
   <remote name="denx" fetch="git://git.denx.de/"/>
-  <remote name="github" fetch="git://github.com/nvidia/"/>
+  <remote name="github" fetch="git://github.com/NVIDIA/"/>
   <remote name="nv-tegra" fetch="git://nv-tegra.nvidia.com/"/>
 
   <default revision="master"/>
