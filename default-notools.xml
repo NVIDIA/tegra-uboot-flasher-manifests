@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="dtc" fetch="git://git.jdl.com/"/>
   <remote name="denx" fetch="git://git.denx.de/"/>
   <remote name="github" fetch="git://github.com/NVIDIA/"/>
 

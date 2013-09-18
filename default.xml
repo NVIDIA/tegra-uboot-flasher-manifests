@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="dtc" fetch="git://git.jdl.com/"/>
   <remote name="denx" fetch="git://git.denx.de/"/>
   <remote name="github" fetch="git://github.com/NVIDIA/"/>
+  <remote name="korg" fetch="git://git.kernel.org/pub/scm/"/>
 
   <default revision="master"/>
 
   <project path="cbootimage" name="cbootimage.git" remote="github"/>
   <project path="cbootimage-configs" name="cbootimage-configs.git" remote="github"/>
-  <project path="dtc" name="software/dtc.git" remote="dtc"/>
+  <project path="dtc" name="linux/kernel/git/jdl/dtc.git" remote="korg"/>
   <project path="scripts" name="tegra-uboot-flasher-scripts.git" remote="github"/>
   <project path="tegrarcm" name="tegrarcm.git" remote="github"/>
   <project path="u-boot" name="u-boot.git" remote="denx"/>
